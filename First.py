@@ -14,4 +14,9 @@ class cal:
             print("It is not a leap year")
     calender1()
 
-def
+def add():
+    a = int(input("Enter no"))
+    b = int(input("Enter 2nd no :"))
+    c = a + b
+    print (c)
+    add()
